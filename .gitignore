@@ -1,0 +1,109 @@
+# .gitignore for HTR (Handwritten Text Recognition) projects
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Package/build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.whl
+pip-wheel-metadata/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Tests
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Logs & reports
+logs/
+*.log
+coverage.*
+.coverage
+htmlcov/
+
+# Model artifacts & checkpoints
+checkpoints/
+checkpoints/*
+saved_models/
+saved_models/*
+models/
+models/*
+weights/
+weights/*
+results/
+results/*
+runs/
+runs/*
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.tflite
+
+# Dataset and large binary files
+data/
+data/*
+raw/
+raw_data/
+datasets/
+*.npz
+*.npy
+*.tar.gz
+*.zip
+*.tgz
+
+# C/C++ / compiled
+*.so
+*.dylib
+*.o
+
+# Experiment tracking / logs
+wandb/
+mlruns/
+tensorboard/
+tensorboard_logs/
+
+# Caches
+.cache/
+cache/
+pip-log.txt
+
+# Environment files / secrets
+.env
+.env.local
+.env.*.local
+*.env
+credentials.json
+
+# Misc
+*.tmp
+*.seed
